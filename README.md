@@ -34,7 +34,7 @@ tar -xvf LJSpeech-1.1.tar.gz
 ```
 6. 파일 경로 변경
 ```
-sed -i -- 's,DUMMY,LJSpeech-1.1/wavs,g' filelists/*.txt
+sed -i -- 's,DUMMY1,LJSpeech-1.1/wavs,g' filelists/ljs_audio_text*.txt.cleaned
 ```
 7. 텍스트 파일 길이 수정
 ```
