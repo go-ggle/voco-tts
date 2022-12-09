@@ -40,10 +40,12 @@ sed -i -- 's,DUMMY1,LJSpeech-1.1/wavs,g' filelists/ljs_audio_text*.txt.cleaned
 ```
 vi filelists/ljs_audio_text_train_filelist.txt.cleaned
 :500,$d
+:wq
 ```
 ```
 vi filelists/ljs_audio_text_val_filelist.txt.cleaned
 :150,$d
+:wq
 ```
 8. config 파일 다운로드
 ```
